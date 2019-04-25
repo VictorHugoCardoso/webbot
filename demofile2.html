@@ -1,0 +1,1231 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR"><head><style type="text/css">[uib-typeahead-popup].dropdown-menu{display:block;}</style><style type="text/css">.uib-time input{width:50px;}</style><style type="text/css">[uib-tooltip-popup].tooltip.top-left &gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.top-right &gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-left &gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-right &gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.left-top &gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.left-bottom &gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.right-top &gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.right-bottom &gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-left &gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-right &gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-left &gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-right &gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-top &gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-bottom &gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-top &gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-bottom &gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-left &gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-right &gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-left &gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-right &gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-top &gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-bottom &gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-top &gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-bottom &gt; .tooltip-arrow,[uib-popover-popup].popover.top-left &gt; .arrow,[uib-popover-popup].popover.top-right &gt; .arrow,[uib-popover-popup].popover.bottom-left &gt; .arrow,[uib-popover-popup].popover.bottom-right &gt; .arrow,[uib-popover-popup].popover.left-top &gt; .arrow,[uib-popover-popup].popover.left-bottom &gt; .arrow,[uib-popover-popup].popover.right-top &gt; .arrow,[uib-popover-popup].popover.right-bottom &gt; .arrow,[uib-popover-html-popup].popover.top-left &gt; .arrow,[uib-popover-html-popup].popover.top-right &gt; .arrow,[uib-popover-html-popup].popover.bottom-left &gt; .arrow,[uib-popover-html-popup].popover.bottom-right &gt; .arrow,[uib-popover-html-popup].popover.left-top &gt; .arrow,[uib-popover-html-popup].popover.left-bottom &gt; .arrow,[uib-popover-html-popup].popover.right-top &gt; .arrow,[uib-popover-html-popup].popover.right-bottom &gt; .arrow,[uib-popover-template-popup].popover.top-left &gt; .arrow,[uib-popover-template-popup].popover.top-right &gt; .arrow,[uib-popover-template-popup].popover.bottom-left &gt; .arrow,[uib-popover-template-popup].popover.bottom-right &gt; .arrow,[uib-popover-template-popup].popover.left-top &gt; .arrow,[uib-popover-template-popup].popover.left-bottom &gt; .arrow,[uib-popover-template-popup].popover.right-top &gt; .arrow,[uib-popover-template-popup].popover.right-bottom &gt; .arrow{top:auto;bottom:auto;left:auto;right:auto;margin:0;}[uib-popover-popup].popover,[uib-popover-html-popup].popover,[uib-popover-template-popup].popover{display:block !important;}</style><style type="text/css">.uib-datepicker-popup.dropdown-menu{display:block;float:none;margin:0;}.uib-button-bar{padding:10px 9px 2px;}</style><style type="text/css">.uib-position-measure{display:block !important;visibility:hidden !important;position:absolute !important;top:-9999px !important;left:-9999px !important;}.uib-position-scrollbar-measure{position:absolute !important;top:-9999px !important;width:50px !important;height:50px !important;overflow:scroll !important;}.uib-position-body-scrollbar-measure{overflow:scroll !important;}</style><style type="text/css">.uib-datepicker .uib-title{width:100%;}.uib-day button,.uib-month button,.uib-year button{min-width:100%;}.uib-left,.uib-right{width:100%}</style><style type="text/css">.ng-animate.item:not(.left):not(.right){-webkit-transition:0s ease-in-out left;transition:0s ease-in-out left}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+        <title>Academus Mobile</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="apple-mobile-web-app-title" content="Academus" />
+        <link rel="apple-touch-icon" href="/academus/academico_mobile/img/unioeste.png" />
+        <meta name="msapplication-TileImage" content="/academus/academico_mobile/img/unioeste.png" />
+        <meta name="msapplication-TileColor" content="#6E5380" />
+        <meta name="theme-color" content="#6E5380" />
+
+        <link rel="shortcut icon" href="https://cdn.unioeste.br/images/unioeste_icone.png" />
+        <link rel="stylesheet" href="https://cdn.unioeste.br/fontawesome/4.6.1/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://cdn.unioeste.br/bootstrap/3.3.6/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/academus/academico_mobile/css/application.css" />
+        <link rel="manifest" href="/academus/academico_mobile/manifest.json" />
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.19.3/sweetalert2.min.css" />
+        <link rel="stylesheet" href="https://cdn.unioeste.br/angular-toastr/1.7.0/angular-toastr.min.css" />
+    <style>@-webkit-keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@-webkit-keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@-webkit-keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}@keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}body.swal2-toast-shown.swal2-has-input&gt;.swal2-container&gt;.swal2-toast{flex-direction:column;align-items:stretch}body.swal2-toast-shown.swal2-has-input&gt;.swal2-container&gt;.swal2-toast .swal2-actions{flex:1;align-self:stretch;justify-content:flex-end;height:2.2em}body.swal2-toast-shown.swal2-has-input&gt;.swal2-container&gt;.swal2-toast .swal2-loading{justify-content:center}body.swal2-toast-shown.swal2-has-input&gt;.swal2-container&gt;.swal2-toast .swal2-input{height:2em;margin:.3125em auto;font-size:1em}body.swal2-toast-shown.swal2-has-input&gt;.swal2-container&gt;.swal2-toast .swal2-validationerror{font-size:1em}body.swal2-toast-shown&gt;.swal2-container{position:fixed;background-color:transparent}body.swal2-toast-shown&gt;.swal2-container.swal2-shown{background-color:transparent}body.swal2-toast-shown&gt;.swal2-container.swal2-top{top:0;right:auto;bottom:auto;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown&gt;.swal2-container.swal2-top-end,body.swal2-toast-shown&gt;.swal2-container.swal2-top-right{top:0;right:0;bottom:auto;left:auto}body.swal2-toast-shown&gt;.swal2-container.swal2-top-left,body.swal2-toast-shown&gt;.swal2-container.swal2-top-start{top:0;right:auto;bottom:auto;left:0}body.swal2-toast-shown&gt;.swal2-container.swal2-center-left,body.swal2-toast-shown&gt;.swal2-container.swal2-center-start{top:50%;right:auto;bottom:auto;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown&gt;.swal2-container.swal2-center{top:50%;right:auto;bottom:auto;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-toast-shown&gt;.swal2-container.swal2-center-end,body.swal2-toast-shown&gt;.swal2-container.swal2-center-right{top:50%;right:0;bottom:auto;left:auto;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown&gt;.swal2-container.swal2-bottom-left,body.swal2-toast-shown&gt;.swal2-container.swal2-bottom-start{top:auto;right:auto;bottom:0;left:0}body.swal2-toast-shown&gt;.swal2-container.swal2-bottom{top:auto;right:auto;bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown&gt;.swal2-container.swal2-bottom-end,body.swal2-toast-shown&gt;.swal2-container.swal2-bottom-right{top:auto;right:0;bottom:0;left:auto}.swal2-popup.swal2-toast{flex-direction:row;align-items:center;width:auto;padding:.625em;box-shadow:0 0 .625em #d9d9d9;overflow-y:hidden}.swal2-popup.swal2-toast .swal2-header{flex-direction:row}.swal2-popup.swal2-toast .swal2-title{justify-content:flex-start;margin:0 .6em;font-size:1em}.swal2-popup.swal2-toast .swal2-close{position:initial}.swal2-popup.swal2-toast .swal2-content{justify-content:flex-start;font-size:1em}.swal2-popup.swal2-toast .swal2-icon{width:2em;min-width:2em;height:2em;margin:0}.swal2-popup.swal2-toast .swal2-icon-text{font-size:2em;font-weight:700;line-height:1em}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{height:auto;margin:0 .3125em}.swal2-popup.swal2-toast .swal2-styled{margin:0 .3125em;padding:.3125em .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-styled:focus{box-shadow:0 0 0 .0625em #fff,0 0 0 .125em rgba(50,100,150,.4)}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:2em;height:2.8125em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.25em;left:-.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:2em 2em;transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.25em;left:.9375em;-webkit-transform-origin:0 2em;transform-origin:0 2em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast.swal2-show{-webkit-animation:showSweetToast .5s;animation:showSweetToast .5s}.swal2-popup.swal2-toast.swal2-hide{-webkit-animation:hideSweetToast .2s forwards;animation:hideSweetToast .2s forwards}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:animate-toast-success-tip .75s;animation:animate-toast-success-tip .75s}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:animate-toast-success-long .75s;animation:animate-toast-success-long .75s}@-webkit-keyframes showSweetToast{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg);opacity:0}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg);opacity:.5}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg);opacity:.7}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0);opacity:1}}@keyframes showSweetToast{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg);opacity:0}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg);opacity:.5}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg);opacity:.7}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0);opacity:1}}@-webkit-keyframes hideSweetToast{0%{opacity:1}33%{opacity:.5}100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@keyframes hideSweetToast{0%{opacity:1}33%{opacity:.5}100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@-webkit-keyframes animate-toast-success-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes animate-toast-success-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@-webkit-keyframes animate-toast-success-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes animate-toast-success-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown),html.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){height:auto;overflow-y:hidden}body.swal2-no-backdrop .swal2-shown{top:auto;right:auto;bottom:auto;left:auto;background-color:transparent}body.swal2-no-backdrop .swal2-shown&gt;.swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-no-backdrop .swal2-shown.swal2-top{top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-top-left,body.swal2-no-backdrop .swal2-shown.swal2-top-start{top:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-top-end,body.swal2-no-backdrop .swal2-shown.swal2-top-right{top:0;right:0}body.swal2-no-backdrop .swal2-shown.swal2-center{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-left,body.swal2-no-backdrop .swal2-shown.swal2-center-start{top:50%;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-end,body.swal2-no-backdrop .swal2-shown.swal2-center-right{top:50%;right:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom{bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom-left,body.swal2-no-backdrop .swal2-shown.swal2-bottom-start{bottom:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-bottom-end,body.swal2-no-backdrop .swal2-shown.swal2-bottom-right{right:0;bottom:0}.swal2-container{display:flex;position:fixed;top:0;right:0;bottom:0;left:0;flex-direction:row;align-items:center;justify-content:center;padding:10px;background-color:transparent;z-index:1060;overflow-x:hidden;-webkit-overflow-scrolling:touch}.swal2-container.swal2-top{align-items:flex-start}.swal2-container.swal2-top-left,.swal2-container.swal2-top-start{align-items:flex-start;justify-content:flex-start}.swal2-container.swal2-top-end,.swal2-container.swal2-top-right{align-items:flex-start;justify-content:flex-end}.swal2-container.swal2-center{align-items:center}.swal2-container.swal2-center-left,.swal2-container.swal2-center-start{align-items:center;justify-content:flex-start}.swal2-container.swal2-center-end,.swal2-container.swal2-center-right{align-items:center;justify-content:flex-end}.swal2-container.swal2-bottom{align-items:flex-end}.swal2-container.swal2-bottom-left,.swal2-container.swal2-bottom-start{align-items:flex-end;justify-content:flex-start}.swal2-container.swal2-bottom-end,.swal2-container.swal2-bottom-right{align-items:flex-end;justify-content:flex-end}.swal2-container.swal2-grow-fullscreen&gt;.swal2-modal{display:flex!important;flex:1;align-self:stretch;justify-content:center}.swal2-container.swal2-grow-row&gt;.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-grow-column{flex:1;flex-direction:column}.swal2-container.swal2-grow-column.swal2-bottom,.swal2-container.swal2-grow-column.swal2-center,.swal2-container.swal2-grow-column.swal2-top{align-items:center}.swal2-container.swal2-grow-column.swal2-bottom-left,.swal2-container.swal2-grow-column.swal2-bottom-start,.swal2-container.swal2-grow-column.swal2-center-left,.swal2-container.swal2-grow-column.swal2-center-start,.swal2-container.swal2-grow-column.swal2-top-left,.swal2-container.swal2-grow-column.swal2-top-start{align-items:flex-start}.swal2-container.swal2-grow-column.swal2-bottom-end,.swal2-container.swal2-grow-column.swal2-bottom-right,.swal2-container.swal2-grow-column.swal2-center-end,.swal2-container.swal2-grow-column.swal2-center-right,.swal2-container.swal2-grow-column.swal2-top-end,.swal2-container.swal2-grow-column.swal2-top-right{align-items:flex-end}.swal2-container.swal2-grow-column&gt;.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right)&gt;.swal2-modal{margin:auto}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-container .swal2-modal{margin:0!important}}.swal2-container.swal2-fade{transition:background-color .1s}.swal2-container.swal2-shown{background-color:rgba(0,0,0,.4)}.swal2-popup{display:none;position:relative;flex-direction:column;justify-content:center;width:32em;max-width:100%;padding:1.25em;border-radius:.3125em;background:#fff;font-family:inherit;font-size:1rem;box-sizing:border-box}.swal2-popup:focus{outline:0}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-popup .swal2-header{display:flex;flex-direction:column;align-items:center}.swal2-popup .swal2-title{display:block;position:relative;max-width:100%;margin:0 0 .4em;padding:0;color:#595959;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-popup .swal2-actions{align-items:center;justify-content:center;margin:1.25em auto 0}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))}.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-confirm{width:2.5em;height:2.5em;margin:.46875em;padding:0;border:.25em solid transparent;border-radius:100%;border-color:transparent;background-color:transparent!important;color:transparent;cursor:default;box-sizing:border-box;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-cancel{margin-right:30px;margin-left:30px}.swal2-popup .swal2-actions.swal2-loading :not(.swal2-styled).swal2-confirm::after{display:inline-block;width:15px;height:15px;margin-left:5px;border:3px solid #999;border-radius:50%;border-right-color:transparent;box-shadow:1px 1px 1px #fff;content:'';-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal}.swal2-popup .swal2-styled{margin:0 .3125em;padding:.625em 2em;font-weight:500;box-shadow:none}.swal2-popup .swal2-styled:not([disabled]){cursor:pointer}.swal2-popup .swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#3085d6;color:#fff;font-size:1.0625em}.swal2-popup .swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#aaa;color:#fff;font-size:1.0625em}.swal2-popup .swal2-styled:focus{outline:0;box-shadow:0 0 0 2px #fff,0 0 0 4px rgba(50,100,150,.4)}.swal2-popup .swal2-styled::-moz-focus-inner{border:0}.swal2-popup .swal2-footer{justify-content:center;margin:1.25em 0 0;padding-top:1em;border-top:1px solid #eee;color:#545454;font-size:1em}.swal2-popup .swal2-image{max-width:100%;margin:1.25em auto}.swal2-popup .swal2-close{position:absolute;top:0;right:0;justify-content:center;width:1.2em;height:1.2em;padding:0;transition:color .1s ease-out;border:none;border-radius:0;background:0 0;color:#ccc;font-family:serif;font-size:2.5em;line-height:1.2;cursor:pointer;overflow:hidden}.swal2-popup .swal2-close:hover{-webkit-transform:none;transform:none;color:#f27474}.swal2-popup&gt;.swal2-checkbox,.swal2-popup&gt;.swal2-file,.swal2-popup&gt;.swal2-input,.swal2-popup&gt;.swal2-radio,.swal2-popup&gt;.swal2-select,.swal2-popup&gt;.swal2-textarea{display:none}.swal2-popup .swal2-content{justify-content:center;margin:0;padding:0;color:#545454;font-size:1.125em;font-weight:300;line-height:normal;word-wrap:break-word}.swal2-popup #swal2-content{text-align:center}.swal2-popup .swal2-checkbox,.swal2-popup .swal2-file,.swal2-popup .swal2-input,.swal2-popup .swal2-radio,.swal2-popup .swal2-select,.swal2-popup .swal2-textarea{margin:1em auto}.swal2-popup .swal2-file,.swal2-popup .swal2-input,.swal2-popup .swal2-textarea{width:100%;transition:border-color .3s,box-shadow .3s;border:1px solid #d9d9d9;border-radius:.1875em;font-size:1.125em;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);box-sizing:border-box}.swal2-popup .swal2-file.swal2-inputerror,.swal2-popup .swal2-input.swal2-inputerror,.swal2-popup .swal2-textarea.swal2-inputerror{border-color:#f27474!important;box-shadow:0 0 2px #f27474!important}.swal2-popup .swal2-file:focus,.swal2-popup .swal2-input:focus,.swal2-popup .swal2-textarea:focus{border:1px solid #b4dbed;outline:0;box-shadow:0 0 3px #c4e6f5}.swal2-popup .swal2-file::-webkit-input-placeholder,.swal2-popup .swal2-input::-webkit-input-placeholder,.swal2-popup .swal2-textarea::-webkit-input-placeholder{color:#ccc}.swal2-popup .swal2-file:-ms-input-placeholder,.swal2-popup .swal2-input:-ms-input-placeholder,.swal2-popup .swal2-textarea:-ms-input-placeholder{color:#ccc}.swal2-popup .swal2-file::-ms-input-placeholder,.swal2-popup .swal2-input::-ms-input-placeholder,.swal2-popup .swal2-textarea::-ms-input-placeholder{color:#ccc}.swal2-popup .swal2-file::placeholder,.swal2-popup .swal2-input::placeholder,.swal2-popup .swal2-textarea::placeholder{color:#ccc}.swal2-popup .swal2-range input{width:80%}.swal2-popup .swal2-range output{width:20%;font-weight:600;text-align:center}.swal2-popup .swal2-range input,.swal2-popup .swal2-range output{height:2.625em;margin:1em auto;padding:0;font-size:1.125em;line-height:2.625em}.swal2-popup .swal2-input{height:2.625em;padding:.75em}.swal2-popup .swal2-input[type=number]{max-width:10em}.swal2-popup .swal2-file{font-size:1.125em}.swal2-popup .swal2-textarea{height:6.75em;padding:.75em}.swal2-popup .swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;color:#545454;font-size:1.125em}.swal2-popup .swal2-checkbox,.swal2-popup .swal2-radio{align-items:center;justify-content:center}.swal2-popup .swal2-checkbox label,.swal2-popup .swal2-radio label{margin:0 .6em;font-size:1.125em}.swal2-popup .swal2-checkbox input,.swal2-popup .swal2-radio input{margin:0 .4em}.swal2-popup .swal2-validationerror{display:none;align-items:center;justify-content:center;padding:.625em;background:#f0f0f0;color:#666;font-size:1em;font-weight:300;overflow:hidden}.swal2-popup .swal2-validationerror::before{display:inline-block;width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center;content:'!';zoom:normal}@supports (-ms-accelerator:true){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@-moz-document url-prefix(){.swal2-close:focus{outline:2px solid rgba(50,100,150,.4)}}.swal2-icon{position:relative;justify-content:center;width:5em;height:5em;margin:1.25em auto 1.875em;border:.25em solid transparent;border-radius:50%;line-height:5em;cursor:default;box-sizing:content-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;zoom:normal}.swal2-icon-text{font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-success{border-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:3.75em 3.75em;transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 3.75em;transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;top:-.25em;left:-.25em;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%;z-index:2;box-sizing:content-box}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;top:.5em;left:1.625em;width:.4375em;height:5.625em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);z-index:1}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;height:.3125em;border-radius:.125em;background-color:#a5dc86;z-index:2}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.875em;width:1.5625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-progresssteps{align-items:center;margin:0 0 1.25em;padding:0;font-weight:600}.swal2-progresssteps li{display:inline-block;position:relative}.swal2-progresssteps .swal2-progresscircle{width:2em;height:2em;border-radius:2em;background:#3085d6;color:#fff;line-height:2em;text-align:center;z-index:20}.swal2-progresssteps .swal2-progresscircle:first-child{margin-left:0}.swal2-progresssteps .swal2-progresscircle:last-child{margin-right:0}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep{background:#3085d6}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep~.swal2-progresscircle{background:#add8e6}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep~.swal2-progressline{background:#add8e6}.swal2-progresssteps .swal2-progressline{width:2.5em;height:.4em;margin:0 -1px;background:#3085d6;z-index:10}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:swal2-show .3s;animation:swal2-show .3s}.swal2-show.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-hide{-webkit-animation:swal2-hide .15s forwards;animation:swal2-hide .15s forwards}.swal2-hide.swal2-noanimation{-webkit-animation:none;animation:none}[dir=rtl] .swal2-close{right:auto;left:0}.swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:swal2-animate-success-line-tip .75s;animation:swal2-animate-success-line-tip .75s}.swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:swal2-animate-success-line-long .75s;animation:swal2-animate-success-line-long .75s}.swal2-animate-success-icon .swal2-success-circular-line-right{-webkit-animation:swal2-rotate-success-circular-line 4.25s ease-in;animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-animate-error-icon{-webkit-animation:swal2-animate-error-icon .5s;animation:swal2-animate-error-icon .5s}.swal2-animate-error-icon .swal2-x-mark{-webkit-animation:swal2-animate-error-x-mark .5s;animation:swal2-animate-error-x-mark .5s}@-webkit-keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}</style></head>
+    <body ng-app="app" class="ng-scope">
+    <menu-principal>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-exampleasdf-navbar-collapse-1" ng-click="isCollapsed = !isCollapsed; cha=false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button> 
+            <a href="#/mensagens" class="navbar-toggle collapsed" style="padding:6px; height: 34px;">
+                <span style="color: #db4437;font-weight: bold;" class="ng-binding"><i class="fa fa-envelope" style="padding: 2px;"></i> 1</span>
+            </a>
+
+            <a class="navbar-brand" href="#/"><img alt="Unioeste" src="https://cdn.unioeste.br/images/unioeste_simbolo.png" height="20px" /></a>
+            <a class="navbar-brand" href="#/">Academus</a>
+            <a class="navbar-brand ng-hide" ng-show="session.serverAttention" href="#/" style="background-color: yellow; color:red; padding-left:5px; padding-right: 5px;">
+                <span ng-show="session.isDevelopment" class="ng-hide">PRO!</span><span ng-show="!session.isDevelopment">DES!</span>
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="navbar-collapse in collapse" ng-init="isCollapsed = true;cha=true;" uib-collapse="isCollapsed" id="bs-example-navbar-collapse-1" aria-expanded="true" aria-hidden="false" style="height: auto;">
+            <ul class="nav navbar-nav">
+
+                <li ng-class="menu.location.path()=='/'?'active':''" ng-click="isCollapsed = !isCollapsed;" class=""><a href="#/">Início</a></li>
+
+                <li ng-class="menu.location.path()=='/academico'?'active':''" ng-click="isCollapsed = !isCollapsed;"><a href="#/academico">Acadêmico</a></li>
+                <li ng-class="menu.location.path()=='/disciplinas'?'active':''" ng-click="isCollapsed = !isCollapsed;" class="active"><a href="#/disciplinas">Matrículas</a></li>
+                <li ng-class="menu.location.path()=='/historico'?'active':''" ng-click="isCollapsed = !isCollapsed;"><a href="#/historico">Histórico</a></li>
+
+                <li ng-class="menu.location.path()=='/relatorios'?'active':''" ng-click="isCollapsed = !isCollapsed;"><a href="#/relatorios">Relatórios</a></li>
+                
+                <li class="dropdown" uib-dropdown="">
+                    <a href="#/" uib-dropdown-toggle="" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Mais<span class="caret"></span></a>
+                    <ul class="dropdown-menu" uib-dropdown-menu="" role="menu">
+                        <li ng-class="menu.location.path()=='/atividades'?'active':''" ng-click="isCollapsed = !isCollapsed;"><a href="#/atividades">Atividades Acadêmicas Complementares</a></li>
+                        <li ng-class="menu.location.path()=='/projetos'?'active':''" ng-click="isCollapsed = !isCollapsed;"><a href="#/projetos">Projetos</a></li>
+                        <li ng-class="menu.location.path()=='/exercicios-domiciliares'?'active':''" ng-click="isCollapsed = !isCollapsed;"><a href="#/exercicios-domiciliares">Exercícios Domiciliares</a></li>
+                        <li ng-class="menu.location.path()=='/monitorias'?'active':''" ng-click="isCollapsed = !isCollapsed;"><a href="#/monitorias">Monitoria(s)</a></li>
+                        <!--<li ng-class="menu.location.path()=='/monitorias/atividades'?'active':''" ng-click="isCollapsed = !isCollapsed;"><a href="#/monitorias/atividades">Monitoria/Atividades</a></li>-->
+                        <li role="separator" class="divider"></li>
+                        <li ng-class="menu.location.path()=='/sobre'?'active':''" ng-click="isCollapsed = !isCollapsed;"><a href="#/sobre">Sobre</a></li>
+                    </ul>
+                </li>
+
+                
+                <li style="padding-left: 15px;" ng-show="cha">
+                    <a href="#/mensagens" class="btn btn-default" style="padding:6px; height: 34px; margin-top: 8px;">
+                        <span style="color: #db4437;font-weight: bold;" class="ng-binding"><i class="fa fa-envelope" style="padding: 2px;"></i> 1</span><!--#0d47a1-->
+                    </a>
+                </li>
+                <li style="padding-left: 15px;" ng-show="cha">
+                    <a href="#/sobre" class="btn btn-default" style="padding:6px; height: 34px; margin-top: 8px;">
+                        <i class="fa fa-question-circle" style="padding: 2px;"></i></a>
+                </li>
+
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown" uib-dropdown="">
+                    <a href="#/" uib-dropdown-toggle="" class="ng-binding dropdown-toggle" aria-haspopup="true" aria-expanded="false">Victor<span class="caret"></span></a>
+                    <ul class="dropdown-menu" uib-dropdown-menu="" role="menu">
+                        <li class="disabled"><a href="#/" class="ng-binding"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Victor Hugo Cardoso Mendes</a></li>
+                        <li class="disabled"><a href="#/" style="padding-left:38px"><small class="ng-binding">victor_mendes00@hotmail.com</small></a></li>
+                        <li role="separator" class="divider"></li>
+                        <li class="disabled"><a href="#/" class="ng-binding"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Academus-Acd</a></li>
+                        
+                        <!-- comentado pois atualmente está redirecionando para o sistema Login
+                        <li role="separator" class="divider"></li>
+                        <li><a ng-click="menu.goToLogin()"><span class="fa fa-th"></span> Meus Sistemas</a></li>
+                        <li><a ng-click="menu.goToLogin('%23/meus-dados')"><span class="fa fa-user"></span> Dados Pessoais</a></li>
+                        <li><a ng-click="menu.goToLogin('%23/minha-seguranca')"><span class="fa fa-key"></span> Login e Segurança</a></li>
+                        -->
+                        
+                        <li role="separator" class="divider ng-hide" ng-show="menu.rs.session.superLeitura!=null || menu.rs.session.super!=null"></li>
+                        <li><a ng-click="menu.cancelReadSimulation()" ng-show="menu.rs.session.superLeitura!=null" class="ng-hide"><span class="fa fa-th"></span> Cancelar Simulação</a></li>
+                        <li><a ng-click="menu.cancelSimulation()" ng-show="menu.rs.session.super!=null" class="ng-hide"><span class="fa fa-th"></span> Cancelar Simulação</a></li>
+                        
+                        <li role="separator" class="divider"></li>
+                        <li><a href="./logout"><span class="glyphicon glyphicon-off"></span> Sair</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+</menu-principal>
+    <div class="container  col-md-10 col-md-offset-1">
+        <!-- ngView:  --><div ng-view="" class="ng-scope"><div ng-controller="MatriculasController as portal" class="ng-scope">
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title text-center"><strong>Matrículas</strong></h3></div>
+        <div class="panel-body" style="margin:5px;">
+            <div class="row">
+                <div ng-show="portal.loading" class="text-center ng-hide"><i class="fa fa-spinner fa-spin"></i></div>
+                <div ng-show="!portal.loading" class="">
+                    <div class="visible-xs">
+                        <ul class="list-group">
+                            <!-- ngRepeat: matricula in portal.disciplinas --><li class="list-group-item col-md-4 text-center ng-scope" ng-repeat="matricula in portal.disciplinas">
+
+                                <strong class="ng-binding">Sistemas Digitais</strong>
+                                <small class="ng-binding">(Foz0995)</small><br />
+                                <div style="font-size: smaller; color:gray;" ng-show="true" class="ng-binding">
+                                    <span ng-show="" class="ng-binding ng-hide">
+                                        Sistemas Digitais (Foz0995)<br />
+                                    </span>
+                                    2019/1 | 
+                                    Anual |
+                                    2º ano
+                                    <!--CH: {{matricula.trmCabecalho.disciplina.dscTtlHrsTotal|| matricula.dscCodigo.dscTtlHrsTotal}}-->
+                                    <br />
+                                    <span ng-show="matricula.acdDscOrientacao.acdDscOrnCodigo" class="ng-binding ng-hide">
+                                        Orientador:  | 
+                                        Área:  |
+                                        Título: <br />
+                                    </span>
+                                    <span ng-show="false" class="ng-binding ng-hide">
+                                        Ensalamento: Sistemas Digitais
+                                        (Foz0995) | 
+                                        <!--{{matricula.trmCabecalho.trmCabecalhoPK.prdLtvPrdLetivo}} |-->
+                                        2ª série |
+                                        Ciência da Computação                                                                                                                                                                                                                           
+                                        (foz0004) |
+                                        Oferta 1<br />
+                                    </span>
+                                    <span style="color:red;" ng-show="matricula.tblGrlItem1.tblGrlItmDscItem1 != 'Ativa'" class="ng-binding ng-hide">
+                                        Ativa<br />
+                                    </span>
+                                </div>
+
+                                <table class="table table-condensed" style="font-size: smaller; color:gray;">
+                                    <tbody><tr>
+                                        <th>Faltas</th><th>Média</th><th>Exame</th><th>Média Final²</th><th>Resultado</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div ng-show="matricula.acdMtrResultado == 'A'" class="ng-binding ng-hide">
+                                                2    
+                                            </div>
+                                            <div ng-show="matricula.acdMtrResultado != 'A'" style="color:&#10;                                                 black;">
+                                                <strong class="ng-binding">2</strong>
+                                                /<small class="ng-binding">34</small>
+                                            </div>
+                                        </td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                    </tr>
+                                </tbody></table>
+
+                                <div style="margin-top: -20px;">
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listNotas(matricula);" style="margin: 2px;">Notas</button>
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listFrequencias(matricula);" style="margin: 2px;">Frequências</button>                            
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listConteudos(matricula);" style="margin: 2px;">Conteúdos</button>
+
+                                    <div class="btn-group dropdown" uib-dropdown="" is-open="status.isopen" dropdown-append-to-body="true">
+                                        <button id="single-button" type="button" class="btn btn-primary btn-xs dropdown-toggle" uib-dropdown-toggle="" ng-disabled="disabled" aria-haspopup="true" aria-expanded="false">
+                                            Mais <span class="caret"></span></button>
+                                        
+                                    </div>
+                                </div>
+
+                            </li><!-- end ngRepeat: matricula in portal.disciplinas --><li class="list-group-item col-md-4 text-center ng-scope" ng-repeat="matricula in portal.disciplinas">
+
+                                <strong class="ng-binding">Organização e Arquitetura de Computadores</strong>
+                                <small class="ng-binding">(foz1002)</small><br />
+                                <div style="font-size: smaller; color:gray;" ng-show="true" class="ng-binding">
+                                    <span ng-show="" class="ng-binding ng-hide">
+                                        Organização e Arquitetura de Computadores (foz1002)<br />
+                                    </span>
+                                    2019/1 | 
+                                    Anual |
+                                    3º ano
+                                    <!--CH: {{matricula.trmCabecalho.disciplina.dscTtlHrsTotal|| matricula.dscCodigo.dscTtlHrsTotal}}-->
+                                    <br />
+                                    <span ng-show="matricula.acdDscOrientacao.acdDscOrnCodigo" class="ng-binding ng-hide">
+                                        Orientador:  | 
+                                        Área:  |
+                                        Título: <br />
+                                    </span>
+                                    <span ng-show="false" class="ng-binding ng-hide">
+                                        Ensalamento: Organização e Arquitetura de Computadores
+                                        (foz1002) | 
+                                        <!--{{matricula.trmCabecalho.trmCabecalhoPK.prdLtvPrdLetivo}} |-->
+                                        3ª série |
+                                        Ciência da Computação                                                                                                                                                                                                                           
+                                        (foz0004) |
+                                        Oferta 1<br />
+                                    </span>
+                                    <span style="color:red;" ng-show="matricula.tblGrlItem1.tblGrlItmDscItem1 != 'Ativa'" class="ng-binding ng-hide">
+                                        Ativa<br />
+                                    </span>
+                                </div>
+
+                                <table class="table table-condensed" style="font-size: smaller; color:gray;">
+                                    <tbody><tr>
+                                        <th>Faltas</th><th>Média</th><th>Exame</th><th>Média Final²</th><th>Resultado</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div ng-show="matricula.acdMtrResultado == 'A'" class="ng-binding ng-hide">
+                                                6    
+                                            </div>
+                                            <div ng-show="matricula.acdMtrResultado != 'A'" style="color:&#10;                                                 black;">
+                                                <strong class="ng-binding">6</strong>
+                                                /<small class="ng-binding">25</small>
+                                            </div>
+                                        </td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                    </tr>
+                                </tbody></table>
+
+                                <div style="margin-top: -20px;">
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listNotas(matricula);" style="margin: 2px;">Notas</button>
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listFrequencias(matricula);" style="margin: 2px;">Frequências</button>                            
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listConteudos(matricula);" style="margin: 2px;">Conteúdos</button>
+
+                                    <div class="btn-group dropdown" uib-dropdown="" is-open="status.isopen" dropdown-append-to-body="true">
+                                        <button id="single-button" type="button" class="btn btn-primary btn-xs dropdown-toggle" uib-dropdown-toggle="" ng-disabled="disabled" aria-haspopup="true" aria-expanded="false">
+                                            Mais <span class="caret"></span></button>
+                                        
+                                    </div>
+                                </div>
+
+                            </li><!-- end ngRepeat: matricula in portal.disciplinas --><li class="list-group-item col-md-4 text-center ng-scope" ng-repeat="matricula in portal.disciplinas">
+
+                                <strong class="ng-binding">Sistemas Operacionais</strong>
+                                <small class="ng-binding">(foz1003)</small><br />
+                                <div style="font-size: smaller; color:gray;" ng-show="true" class="ng-binding">
+                                    <span ng-show="" class="ng-binding ng-hide">
+                                        Sistemas Operacionais (foz1003)<br />
+                                    </span>
+                                    2019/2 | 
+                                    Semestral |
+                                    3º ano
+                                    <!--CH: {{matricula.trmCabecalho.disciplina.dscTtlHrsTotal|| matricula.dscCodigo.dscTtlHrsTotal}}-->
+                                    <br />
+                                    <span ng-show="matricula.acdDscOrientacao.acdDscOrnCodigo" class="ng-binding ng-hide">
+                                        Orientador:  | 
+                                        Área:  |
+                                        Título: <br />
+                                    </span>
+                                    <span ng-show="false" class="ng-binding ng-hide">
+                                        Ensalamento: Sistemas Operacionais
+                                        (foz1003) | 
+                                        <!--{{matricula.trmCabecalho.trmCabecalhoPK.prdLtvPrdLetivo}} |-->
+                                        3ª série |
+                                        Ciência da Computação                                                                                                                                                                                                                           
+                                        (foz0004) |
+                                        Oferta 1<br />
+                                    </span>
+                                    <span style="color:red;" ng-show="matricula.tblGrlItem1.tblGrlItmDscItem1 != 'Ativa'" class="ng-binding ng-hide">
+                                        Ativa<br />
+                                    </span>
+                                </div>
+
+                                <table class="table table-condensed" style="font-size: smaller; color:gray;">
+                                    <tbody><tr>
+                                        <th>Faltas</th><th>Média</th><th>Exame</th><th>Média Final²</th><th>Resultado</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div ng-show="matricula.acdMtrResultado == 'A'" class="ng-binding ng-hide">
+                                                DF    
+                                            </div>
+                                            <div ng-show="matricula.acdMtrResultado != 'A'" style="color:&#10;                                                 black;">
+                                                <strong class="ng-binding">DF</strong>
+                                                /<small class="ng-binding">17</small>
+                                            </div>
+                                        </td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                    </tr>
+                                </tbody></table>
+
+                                <div style="margin-top: -20px;">
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listNotas(matricula);" style="margin: 2px;">Notas</button>
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listFrequencias(matricula);" style="margin: 2px;">Frequências</button>                            
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listConteudos(matricula);" style="margin: 2px;">Conteúdos</button>
+
+                                    <div class="btn-group dropdown" uib-dropdown="" is-open="status.isopen" dropdown-append-to-body="true">
+                                        <button id="single-button" type="button" class="btn btn-primary btn-xs dropdown-toggle" uib-dropdown-toggle="" ng-disabled="disabled" aria-haspopup="true" aria-expanded="false">
+                                            Mais <span class="caret"></span></button>
+                                        
+                                    </div>
+                                </div>
+
+                            </li><!-- end ngRepeat: matricula in portal.disciplinas --><li class="list-group-item col-md-4 text-center ng-scope" ng-repeat="matricula in portal.disciplinas">
+
+                                <strong class="ng-binding">Inteligência Artificial</strong>
+                                <small class="ng-binding">(foz1008)</small><br />
+                                <div style="font-size: smaller; color:gray;" ng-show="true" class="ng-binding">
+                                    <span ng-show="" class="ng-binding ng-hide">
+                                        Inteligência Artificial (foz1008)<br />
+                                    </span>
+                                    2019/1 | 
+                                    Anual |
+                                    4º ano
+                                    <!--CH: {{matricula.trmCabecalho.disciplina.dscTtlHrsTotal|| matricula.dscCodigo.dscTtlHrsTotal}}-->
+                                    <br />
+                                    <span ng-show="matricula.acdDscOrientacao.acdDscOrnCodigo" class="ng-binding ng-hide">
+                                        Orientador:  | 
+                                        Área:  |
+                                        Título: <br />
+                                    </span>
+                                    <span ng-show="false" class="ng-binding ng-hide">
+                                        Ensalamento: Inteligência Artificial
+                                        (foz1008) | 
+                                        <!--{{matricula.trmCabecalho.trmCabecalhoPK.prdLtvPrdLetivo}} |-->
+                                        4ª série |
+                                        Ciência da Computação                                                                                                                                                                                                                           
+                                        (foz0004) |
+                                        Oferta 1<br />
+                                    </span>
+                                    <span style="color:red;" ng-show="matricula.tblGrlItem1.tblGrlItmDscItem1 != 'Ativa'" class="ng-binding ng-hide">
+                                        Ativa<br />
+                                    </span>
+                                </div>
+
+                                <table class="table table-condensed" style="font-size: smaller; color:gray;">
+                                    <tbody><tr>
+                                        <th>Faltas</th><th>Média</th><th>Exame</th><th>Média Final²</th><th>Resultado</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div ng-show="matricula.acdMtrResultado == 'A'" class="ng-binding ng-hide">
+                                                8    
+                                            </div>
+                                            <div ng-show="matricula.acdMtrResultado != 'A'" style="color:&#10;                                                 black;">
+                                                <strong class="ng-binding">8</strong>
+                                                /<small class="ng-binding">34</small>
+                                            </div>
+                                        </td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                    </tr>
+                                </tbody></table>
+
+                                <div style="margin-top: -20px;">
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listNotas(matricula);" style="margin: 2px;">Notas</button>
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listFrequencias(matricula);" style="margin: 2px;">Frequências</button>                            
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listConteudos(matricula);" style="margin: 2px;">Conteúdos</button>
+
+                                    <div class="btn-group dropdown" uib-dropdown="" is-open="status.isopen" dropdown-append-to-body="true">
+                                        <button id="single-button" type="button" class="btn btn-primary btn-xs dropdown-toggle" uib-dropdown-toggle="" ng-disabled="disabled" aria-haspopup="true" aria-expanded="false">
+                                            Mais <span class="caret"></span></button>
+                                        
+                                    </div>
+                                </div>
+
+                            </li><!-- end ngRepeat: matricula in portal.disciplinas --><li class="list-group-item col-md-4 text-center ng-scope" ng-repeat="matricula in portal.disciplinas">
+
+                                <strong class="ng-binding">Deep Learnig para Classificação de Imagem em GPU</strong>
+                                <small class="ng-binding">(Foz1903)</small><br />
+                                <div style="font-size: smaller; color:gray;" ng-show="true" class="ng-binding">
+                                    <span ng-show="" class="ng-binding ng-hide">
+                                        Optativa II (Grl0034)<br />
+                                    </span>
+                                    2019/1 | 
+                                    Semestral |
+                                    4º ano
+                                    <!--CH: {{matricula.trmCabecalho.disciplina.dscTtlHrsTotal|| matricula.dscCodigo.dscTtlHrsTotal}}-->
+                                    <br />
+                                    <span ng-show="matricula.acdDscOrientacao.acdDscOrnCodigo" class="ng-binding ng-hide">
+                                        Orientador:  | 
+                                        Área:  |
+                                        Título: <br />
+                                    </span>
+                                    <span ng-show="false" class="ng-binding ng-hide">
+                                        Ensalamento: Deep Learnig para Classificação de Imagem em GPU
+                                        (Foz1903) | 
+                                        <!--{{matricula.trmCabecalho.trmCabecalhoPK.prdLtvPrdLetivo}} |-->
+                                        4ª série |
+                                        Ciência da Computação                                                                                                                                                                                                                           
+                                        (foz0004) |
+                                        Oferta 1<br />
+                                    </span>
+                                    <span style="color:red;" ng-show="matricula.tblGrlItem1.tblGrlItmDscItem1 != 'Ativa'" class="ng-binding ng-hide">
+                                        Ativa<br />
+                                    </span>
+                                </div>
+
+                                <table class="table table-condensed" style="font-size: smaller; color:gray;">
+                                    <tbody><tr>
+                                        <th>Faltas</th><th>Média</th><th>Exame</th><th>Média Final²</th><th>Resultado</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div ng-show="matricula.acdMtrResultado == 'A'" class="ng-binding ng-hide">
+                                                10    
+                                            </div>
+                                            <div ng-show="matricula.acdMtrResultado != 'A'" style="color:&#10;                                                 black;">
+                                                <strong class="ng-binding">10</strong>
+                                                /<small class="ng-binding">17</small>
+                                            </div>
+                                        </td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                    </tr>
+                                </tbody></table>
+
+                                <div style="margin-top: -20px;">
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listNotas(matricula);" style="margin: 2px;">Notas</button>
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listFrequencias(matricula);" style="margin: 2px;">Frequências</button>                            
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listConteudos(matricula);" style="margin: 2px;">Conteúdos</button>
+
+                                    <div class="btn-group dropdown" uib-dropdown="" is-open="status.isopen" dropdown-append-to-body="true">
+                                        <button id="single-button" type="button" class="btn btn-primary btn-xs dropdown-toggle" uib-dropdown-toggle="" ng-disabled="disabled" aria-haspopup="true" aria-expanded="false">
+                                            Mais <span class="caret"></span></button>
+                                        
+                                    </div>
+                                </div>
+
+                            </li><!-- end ngRepeat: matricula in portal.disciplinas --><li class="list-group-item col-md-4 text-center ng-scope" ng-repeat="matricula in portal.disciplinas">
+
+                                <strong class="ng-binding">Sistemas de Informação</strong>
+                                <small class="ng-binding">(foz1011)</small><br />
+                                <div style="font-size: smaller; color:gray;" ng-show="true" class="ng-binding">
+                                    <span ng-show="" class="ng-binding ng-hide">
+                                        Sistemas de Informação (foz1011)<br />
+                                    </span>
+                                    2019/1 | 
+                                    Semestral |
+                                    4º ano
+                                    <!--CH: {{matricula.trmCabecalho.disciplina.dscTtlHrsTotal|| matricula.dscCodigo.dscTtlHrsTotal}}-->
+                                    <br />
+                                    <span ng-show="matricula.acdDscOrientacao.acdDscOrnCodigo" class="ng-binding ng-hide">
+                                        Orientador:  | 
+                                        Área:  |
+                                        Título: <br />
+                                    </span>
+                                    <span ng-show="false" class="ng-binding ng-hide">
+                                        Ensalamento: Sistemas de Informação
+                                        (foz1011) | 
+                                        <!--{{matricula.trmCabecalho.trmCabecalhoPK.prdLtvPrdLetivo}} |-->
+                                        4ª série |
+                                        Ciência da Computação                                                                                                                                                                                                                           
+                                        (foz0004) |
+                                        Oferta 1<br />
+                                    </span>
+                                    <span style="color:red;" ng-show="matricula.tblGrlItem1.tblGrlItmDscItem1 != 'Ativa'" class="ng-binding ng-hide">
+                                        Ativa<br />
+                                    </span>
+                                </div>
+
+                                <table class="table table-condensed" style="font-size: smaller; color:gray;">
+                                    <tbody><tr>
+                                        <th>Faltas</th><th>Média</th><th>Exame</th><th>Média Final²</th><th>Resultado</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div ng-show="matricula.acdMtrResultado == 'A'" class="ng-binding ng-hide">
+                                                6    
+                                            </div>
+                                            <div ng-show="matricula.acdMtrResultado != 'A'" style="color:&#10;                                                 black;">
+                                                <strong class="ng-binding">6</strong>
+                                                /<small class="ng-binding">17</small>
+                                            </div>
+                                        </td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                    </tr>
+                                </tbody></table>
+
+                                <div style="margin-top: -20px;">
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listNotas(matricula);" style="margin: 2px;">Notas</button>
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listFrequencias(matricula);" style="margin: 2px;">Frequências</button>                            
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listConteudos(matricula);" style="margin: 2px;">Conteúdos</button>
+
+                                    <div class="btn-group dropdown" uib-dropdown="" is-open="status.isopen" dropdown-append-to-body="true">
+                                        <button id="single-button" type="button" class="btn btn-primary btn-xs dropdown-toggle" uib-dropdown-toggle="" ng-disabled="disabled" aria-haspopup="true" aria-expanded="false">
+                                            Mais <span class="caret"></span></button>
+                                        
+                                    </div>
+                                </div>
+
+                            </li><!-- end ngRepeat: matricula in portal.disciplinas --><li class="list-group-item col-md-4 text-center ng-scope" ng-repeat="matricula in portal.disciplinas">
+
+                                <strong class="ng-binding">Computação Gráfica</strong>
+                                <small class="ng-binding">(foz1010)</small><br />
+                                <div style="font-size: smaller; color:gray;" ng-show="true" class="ng-binding">
+                                    <span ng-show="" class="ng-binding ng-hide">
+                                        Computação Gráfica (foz1010)<br />
+                                    </span>
+                                    2019/2 | 
+                                    Semestral |
+                                    4º ano
+                                    <!--CH: {{matricula.trmCabecalho.disciplina.dscTtlHrsTotal|| matricula.dscCodigo.dscTtlHrsTotal}}-->
+                                    <br />
+                                    <span ng-show="matricula.acdDscOrientacao.acdDscOrnCodigo" class="ng-binding ng-hide">
+                                        Orientador:  | 
+                                        Área:  |
+                                        Título: <br />
+                                    </span>
+                                    <span ng-show="false" class="ng-binding ng-hide">
+                                        Ensalamento: Computação Gráfica
+                                        (foz1010) | 
+                                        <!--{{matricula.trmCabecalho.trmCabecalhoPK.prdLtvPrdLetivo}} |-->
+                                        4ª série |
+                                        Ciência da Computação                                                                                                                                                                                                                           
+                                        (foz0004) |
+                                        Oferta 1<br />
+                                    </span>
+                                    <span style="color:red;" ng-show="matricula.tblGrlItem1.tblGrlItmDscItem1 != 'Ativa'" class="ng-binding ng-hide">
+                                        Ativa<br />
+                                    </span>
+                                </div>
+
+                                <table class="table table-condensed" style="font-size: smaller; color:gray;">
+                                    <tbody><tr>
+                                        <th>Faltas</th><th>Média</th><th>Exame</th><th>Média Final²</th><th>Resultado</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div ng-show="matricula.acdMtrResultado == 'A'" class="ng-binding ng-hide">
+                                                0    
+                                            </div>
+                                            <div ng-show="matricula.acdMtrResultado != 'A'" style="color:&#10;                                                 black;">
+                                                <strong class="ng-binding">0</strong>
+                                                /<small class="ng-binding">17</small>
+                                            </div>
+                                        </td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                        <td class="ng-binding">-</td>
+                                    </tr>
+                                </tbody></table>
+
+                                <div style="margin-top: -20px;">
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listNotas(matricula);" style="margin: 2px;">Notas</button>
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listFrequencias(matricula);" style="margin: 2px;">Frequências</button>                            
+                                    <button class="btn btn-primary btn-xs" ng-click="portal.listConteudos(matricula);" style="margin: 2px;">Conteúdos</button>
+
+                                    <div class="btn-group dropdown" uib-dropdown="" is-open="status.isopen" dropdown-append-to-body="true">
+                                        <button id="single-button" type="button" class="btn btn-primary btn-xs dropdown-toggle" uib-dropdown-toggle="" ng-disabled="disabled" aria-haspopup="true" aria-expanded="false">
+                                            Mais <span class="caret"></span></button>
+                                        
+                                    </div>
+                                </div>
+
+                            </li><!-- end ngRepeat: matricula in portal.disciplinas -->
+                        </ul>                    
+                    </div>
+
+
+                    <div class="hidden-xs">
+                        <table class="table table-condensed" style="font-size: small;">
+                            <tbody><tr>
+                                <th>Período</th>
+                                <th>Série</th>
+                                <th>Disciplina</th>
+                                <th>CH</th>
+                                <th>Faltas¹<br />/Máx.</th>
+                                <th>Média</th>
+                                <th>Exame</th>
+                                <th>Média<br />Final²</th>
+                                <th>Resultado</th>
+                                <th></th>
+                            </tr>
+                            <!-- ngRepeat: matricula in portal.disciplinas --><tr ng-repeat="matricula in portal.disciplinas" class="ng-scope">
+
+                                <td class="ng-binding">2019/1<br /><div style="font-size: smaller; color:gray;" class="ng-binding">
+                                        Anual</div></td>
+                                <td class="ng-binding">2º ano</td>
+                                <td>
+                                    <strong class="ng-binding">Sistemas Digitais</strong>
+                                    <small class="ng-binding">(Foz0995)</small><br />
+                                    <div style="font-size: smaller; color: gray;">
+                                        <span ng-show="" class="ng-binding ng-hide">
+                                            Sistemas Digitais (Foz0995)<br />
+                                        </span>
+                                        <!--CH: {{matricula.trmCabecalho.disciplina.dscTtlHrsTotal|| matricula.dscCodigo.dscTtlHrsTotal}}-->
+                                        <span ng-show="matricula.acdDscOrientacao.acdDscOrnCodigo" class="ng-binding ng-hide">
+                                            Orientador:  | 
+                                            Área:  |
+                                            Título: <br />
+                                        </span>
+                                        <span ng-show="false" class="ng-binding ng-hide">
+                                            Ensalamento: Sistemas Digitais
+                                            (Foz0995) | 
+                                            <!--{{matricula.trmCabecalho.trmCabecalhoPK.prdLtvPrdLetivo}} |-->
+                                            2ª série |
+                                            Ciência da Computação                                                                                                                                                                                                                           
+                                            (foz0004) |
+                                            Oferta 1<br />
+                                        </span>
+                                        <span style="color:red;" ng-show="matricula.tblGrlItem1.tblGrlItmDscItem1 != 'Ativa'" class="ng-binding ng-hide">
+                                            Ativa<br />
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="ng-binding">
+                                    136
+                                    <div style="font-size: smaller; color:gray;" ng-show="matricula.trmCabecalho.disciplina.dscTtlHrsTotal != matricula.dscCodigo.dscTtlHrsTotal" class="ng-binding ng-hide">
+                                        136
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div ng-show="matricula.acdMtrResultado == 'A'" class="ng-binding ng-hide">
+                                        2    
+                                    </div>
+                                    <div ng-show="matricula.acdMtrResultado != 'A'" style="color:&#10;                                         black;">
+                                        <strong class="ng-binding">2</strong>
+                                        /<small class="ng-binding">34</small>
+                                    </div>
+                                </td>
+                                <td class="ng-binding"></td>
+                                <td class="ng-binding">
+                                    
+                                    <!--
+                                    <div style="font-size: smaller; color:gray;" ng-show="matricula.acdMtrMdPrdLetivo && !matricula.acdMtrResultado && matricula.acdMtrMdPrdLetivo < 70 && matricula.acdMtrMdPrdLetivo >= 40">
+                                        {{'Mín² '+(150 - matricula.acdMtrMdPrdLetivo * 1.5)}}
+                                    </div>
+                                    -->
+                                </td>
+                                <td class="ng-binding"></td>
+                                <td class="ng-binding">-</td>
+
+                                <td>
+                                    <div class="btn-group dropdown" uib-dropdown="" is-open="status.isopen">
+                                        <button id="single-button" type="button" class="btn btn-primary btn-sm dropdown-toggle" uib-dropdown-toggle="" ng-disabled="disabled" aria-haspopup="true" aria-expanded="false">
+                                            Ver <span class="caret"></span></button>
+                                        <ul class="dropdown-menu" uib-dropdown-menu="" role="menu" aria-labelledby="single-button">
+                                            <li role="menuitem"><a ng-click="portal.listNotas(matricula);">Notas</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listFrequencias(matricula);">Frequências</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listConteudos(matricula);">Conteúdos</a></li>
+                                            <li class="divider"></li>
+                                            <li role="menuitem"><a ng-click="portal.listPE(matricula);">Plano de Ensino</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listBibliografias(matricula);">Bibliografias</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listTurmas(matricula);">Informações da Turma</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr><!-- end ngRepeat: matricula in portal.disciplinas --><tr ng-repeat="matricula in portal.disciplinas" class="ng-scope">
+
+                                <td class="ng-binding">2019/1<br /><div style="font-size: smaller; color:gray;" class="ng-binding">
+                                        Anual</div></td>
+                                <td class="ng-binding">3º ano</td>
+                                <td>
+                                    <strong class="ng-binding">Organização e Arquitetura de Computadores</strong>
+                                    <small class="ng-binding">(foz1002)</small><br />
+                                    <div style="font-size: smaller; color: gray;">
+                                        <span ng-show="" class="ng-binding ng-hide">
+                                            Organização e Arquitetura de Computadores (foz1002)<br />
+                                        </span>
+                                        <!--CH: {{matricula.trmCabecalho.disciplina.dscTtlHrsTotal|| matricula.dscCodigo.dscTtlHrsTotal}}-->
+                                        <span ng-show="matricula.acdDscOrientacao.acdDscOrnCodigo" class="ng-binding ng-hide">
+                                            Orientador:  | 
+                                            Área:  |
+                                            Título: <br />
+                                        </span>
+                                        <span ng-show="false" class="ng-binding ng-hide">
+                                            Ensalamento: Organização e Arquitetura de Computadores
+                                            (foz1002) | 
+                                            <!--{{matricula.trmCabecalho.trmCabecalhoPK.prdLtvPrdLetivo}} |-->
+                                            3ª série |
+                                            Ciência da Computação                                                                                                                                                                                                                           
+                                            (foz0004) |
+                                            Oferta 1<br />
+                                        </span>
+                                        <span style="color:red;" ng-show="matricula.tblGrlItem1.tblGrlItmDscItem1 != 'Ativa'" class="ng-binding ng-hide">
+                                            Ativa<br />
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="ng-binding">
+                                    102
+                                    <div style="font-size: smaller; color:gray;" ng-show="matricula.trmCabecalho.disciplina.dscTtlHrsTotal != matricula.dscCodigo.dscTtlHrsTotal" class="ng-binding ng-hide">
+                                        102
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div ng-show="matricula.acdMtrResultado == 'A'" class="ng-binding ng-hide">
+                                        6    
+                                    </div>
+                                    <div ng-show="matricula.acdMtrResultado != 'A'" style="color:&#10;                                         black;">
+                                        <strong class="ng-binding">6</strong>
+                                        /<small class="ng-binding">25</small>
+                                    </div>
+                                </td>
+                                <td class="ng-binding"></td>
+                                <td class="ng-binding">
+                                    
+                                    <!--
+                                    <div style="font-size: smaller; color:gray;" ng-show="matricula.acdMtrMdPrdLetivo && !matricula.acdMtrResultado && matricula.acdMtrMdPrdLetivo < 70 && matricula.acdMtrMdPrdLetivo >= 40">
+                                        {{'Mín² '+(150 - matricula.acdMtrMdPrdLetivo * 1.5)}}
+                                    </div>
+                                    -->
+                                </td>
+                                <td class="ng-binding"></td>
+                                <td class="ng-binding">-</td>
+
+                                <td>
+                                    <div class="btn-group dropdown" uib-dropdown="" is-open="status.isopen">
+                                        <button id="single-button" type="button" class="btn btn-primary btn-sm dropdown-toggle" uib-dropdown-toggle="" ng-disabled="disabled" aria-haspopup="true" aria-expanded="false">
+                                            Ver <span class="caret"></span></button>
+                                        <ul class="dropdown-menu" uib-dropdown-menu="" role="menu" aria-labelledby="single-button">
+                                            <li role="menuitem"><a ng-click="portal.listNotas(matricula);">Notas</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listFrequencias(matricula);">Frequências</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listConteudos(matricula);">Conteúdos</a></li>
+                                            <li class="divider"></li>
+                                            <li role="menuitem"><a ng-click="portal.listPE(matricula);">Plano de Ensino</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listBibliografias(matricula);">Bibliografias</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listTurmas(matricula);">Informações da Turma</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr><!-- end ngRepeat: matricula in portal.disciplinas --><tr ng-repeat="matricula in portal.disciplinas" class="ng-scope">
+
+                                <td class="ng-binding">2019/2<br /><div style="font-size: smaller; color:gray;" class="ng-binding">
+                                        Semestral</div></td>
+                                <td class="ng-binding">3º ano</td>
+                                <td>
+                                    <strong class="ng-binding">Sistemas Operacionais</strong>
+                                    <small class="ng-binding">(foz1003)</small><br />
+                                    <div style="font-size: smaller; color: gray;">
+                                        <span ng-show="" class="ng-binding ng-hide">
+                                            Sistemas Operacionais (foz1003)<br />
+                                        </span>
+                                        <!--CH: {{matricula.trmCabecalho.disciplina.dscTtlHrsTotal|| matricula.dscCodigo.dscTtlHrsTotal}}-->
+                                        <span ng-show="matricula.acdDscOrientacao.acdDscOrnCodigo" class="ng-binding ng-hide">
+                                            Orientador:  | 
+                                            Área:  |
+                                            Título: <br />
+                                        </span>
+                                        <span ng-show="false" class="ng-binding ng-hide">
+                                            Ensalamento: Sistemas Operacionais
+                                            (foz1003) | 
+                                            <!--{{matricula.trmCabecalho.trmCabecalhoPK.prdLtvPrdLetivo}} |-->
+                                            3ª série |
+                                            Ciência da Computação                                                                                                                                                                                                                           
+                                            (foz0004) |
+                                            Oferta 1<br />
+                                        </span>
+                                        <span style="color:red;" ng-show="matricula.tblGrlItem1.tblGrlItmDscItem1 != 'Ativa'" class="ng-binding ng-hide">
+                                            Ativa<br />
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="ng-binding">
+                                    68
+                                    <div style="font-size: smaller; color:gray;" ng-show="matricula.trmCabecalho.disciplina.dscTtlHrsTotal != matricula.dscCodigo.dscTtlHrsTotal" class="ng-binding ng-hide">
+                                        68
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div ng-show="matricula.acdMtrResultado == 'A'" class="ng-binding ng-hide">
+                                        DF    
+                                    </div>
+                                    <div ng-show="matricula.acdMtrResultado != 'A'" style="color:&#10;                                         black;">
+                                        <strong class="ng-binding">DF</strong>
+                                        /<small class="ng-binding">17</small>
+                                    </div>
+                                </td>
+                                <td class="ng-binding"></td>
+                                <td class="ng-binding">
+                                    
+                                    <!--
+                                    <div style="font-size: smaller; color:gray;" ng-show="matricula.acdMtrMdPrdLetivo && !matricula.acdMtrResultado && matricula.acdMtrMdPrdLetivo < 70 && matricula.acdMtrMdPrdLetivo >= 40">
+                                        {{'Mín² '+(150 - matricula.acdMtrMdPrdLetivo * 1.5)}}
+                                    </div>
+                                    -->
+                                </td>
+                                <td class="ng-binding"></td>
+                                <td class="ng-binding">-</td>
+
+                                <td>
+                                    <div class="btn-group dropdown" uib-dropdown="" is-open="status.isopen">
+                                        <button id="single-button" type="button" class="btn btn-primary btn-sm dropdown-toggle" uib-dropdown-toggle="" ng-disabled="disabled" aria-haspopup="true" aria-expanded="false">
+                                            Ver <span class="caret"></span></button>
+                                        <ul class="dropdown-menu" uib-dropdown-menu="" role="menu" aria-labelledby="single-button">
+                                            <li role="menuitem"><a ng-click="portal.listNotas(matricula);">Notas</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listFrequencias(matricula);">Frequências</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listConteudos(matricula);">Conteúdos</a></li>
+                                            <li class="divider"></li>
+                                            <li role="menuitem"><a ng-click="portal.listPE(matricula);">Plano de Ensino</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listBibliografias(matricula);">Bibliografias</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listTurmas(matricula);">Informações da Turma</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr><!-- end ngRepeat: matricula in portal.disciplinas --><tr ng-repeat="matricula in portal.disciplinas" class="ng-scope">
+
+                                <td class="ng-binding">2019/1<br /><div style="font-size: smaller; color:gray;" class="ng-binding">
+                                        Anual</div></td>
+                                <td class="ng-binding">4º ano</td>
+                                <td>
+                                    <strong class="ng-binding">Inteligência Artificial</strong>
+                                    <small class="ng-binding">(foz1008)</small><br />
+                                    <div style="font-size: smaller; color: gray;">
+                                        <span ng-show="" class="ng-binding ng-hide">
+                                            Inteligência Artificial (foz1008)<br />
+                                        </span>
+                                        <!--CH: {{matricula.trmCabecalho.disciplina.dscTtlHrsTotal|| matricula.dscCodigo.dscTtlHrsTotal}}-->
+                                        <span ng-show="matricula.acdDscOrientacao.acdDscOrnCodigo" class="ng-binding ng-hide">
+                                            Orientador:  | 
+                                            Área:  |
+                                            Título: <br />
+                                        </span>
+                                        <span ng-show="false" class="ng-binding ng-hide">
+                                            Ensalamento: Inteligência Artificial
+                                            (foz1008) | 
+                                            <!--{{matricula.trmCabecalho.trmCabecalhoPK.prdLtvPrdLetivo}} |-->
+                                            4ª série |
+                                            Ciência da Computação                                                                                                                                                                                                                           
+                                            (foz0004) |
+                                            Oferta 1<br />
+                                        </span>
+                                        <span style="color:red;" ng-show="matricula.tblGrlItem1.tblGrlItmDscItem1 != 'Ativa'" class="ng-binding ng-hide">
+                                            Ativa<br />
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="ng-binding">
+                                    136
+                                    <div style="font-size: smaller; color:gray;" ng-show="matricula.trmCabecalho.disciplina.dscTtlHrsTotal != matricula.dscCodigo.dscTtlHrsTotal" class="ng-binding ng-hide">
+                                        136
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div ng-show="matricula.acdMtrResultado == 'A'" class="ng-binding ng-hide">
+                                        8    
+                                    </div>
+                                    <div ng-show="matricula.acdMtrResultado != 'A'" style="color:&#10;                                         black;">
+                                        <strong class="ng-binding">8</strong>
+                                        /<small class="ng-binding">34</small>
+                                    </div>
+                                </td>
+                                <td class="ng-binding"></td>
+                                <td class="ng-binding">
+                                    
+                                    <!--
+                                    <div style="font-size: smaller; color:gray;" ng-show="matricula.acdMtrMdPrdLetivo && !matricula.acdMtrResultado && matricula.acdMtrMdPrdLetivo < 70 && matricula.acdMtrMdPrdLetivo >= 40">
+                                        {{'Mín² '+(150 - matricula.acdMtrMdPrdLetivo * 1.5)}}
+                                    </div>
+                                    -->
+                                </td>
+                                <td class="ng-binding"></td>
+                                <td class="ng-binding">-</td>
+
+                                <td>
+                                    <div class="btn-group dropdown" uib-dropdown="" is-open="status.isopen">
+                                        <button id="single-button" type="button" class="btn btn-primary btn-sm dropdown-toggle" uib-dropdown-toggle="" ng-disabled="disabled" aria-haspopup="true" aria-expanded="false">
+                                            Ver <span class="caret"></span></button>
+                                        <ul class="dropdown-menu" uib-dropdown-menu="" role="menu" aria-labelledby="single-button">
+                                            <li role="menuitem"><a ng-click="portal.listNotas(matricula);">Notas</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listFrequencias(matricula);">Frequências</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listConteudos(matricula);">Conteúdos</a></li>
+                                            <li class="divider"></li>
+                                            <li role="menuitem"><a ng-click="portal.listPE(matricula);">Plano de Ensino</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listBibliografias(matricula);">Bibliografias</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listTurmas(matricula);">Informações da Turma</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr><!-- end ngRepeat: matricula in portal.disciplinas --><tr ng-repeat="matricula in portal.disciplinas" class="ng-scope">
+
+                                <td class="ng-binding">2019/1<br /><div style="font-size: smaller; color:gray;" class="ng-binding">
+                                        Semestral</div></td>
+                                <td class="ng-binding">4º ano</td>
+                                <td>
+                                    <strong class="ng-binding">Deep Learnig para Classificação de Imagem em GPU</strong>
+                                    <small class="ng-binding">(Foz1903)</small><br />
+                                    <div style="font-size: smaller; color: gray;">
+                                        <span ng-show="" class="ng-binding ng-hide">
+                                            Optativa II (Grl0034)<br />
+                                        </span>
+                                        <!--CH: {{matricula.trmCabecalho.disciplina.dscTtlHrsTotal|| matricula.dscCodigo.dscTtlHrsTotal}}-->
+                                        <span ng-show="matricula.acdDscOrientacao.acdDscOrnCodigo" class="ng-binding ng-hide">
+                                            Orientador:  | 
+                                            Área:  |
+                                            Título: <br />
+                                        </span>
+                                        <span ng-show="false" class="ng-binding ng-hide">
+                                            Ensalamento: Deep Learnig para Classificação de Imagem em GPU
+                                            (Foz1903) | 
+                                            <!--{{matricula.trmCabecalho.trmCabecalhoPK.prdLtvPrdLetivo}} |-->
+                                            4ª série |
+                                            Ciência da Computação                                                                                                                                                                                                                           
+                                            (foz0004) |
+                                            Oferta 1<br />
+                                        </span>
+                                        <span style="color:red;" ng-show="matricula.tblGrlItem1.tblGrlItmDscItem1 != 'Ativa'" class="ng-binding ng-hide">
+                                            Ativa<br />
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="ng-binding">
+                                    68
+                                    <div style="font-size: smaller; color:gray;" ng-show="matricula.trmCabecalho.disciplina.dscTtlHrsTotal != matricula.dscCodigo.dscTtlHrsTotal" class="ng-binding ng-hide">
+                                        68
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div ng-show="matricula.acdMtrResultado == 'A'" class="ng-binding ng-hide">
+                                        10    
+                                    </div>
+                                    <div ng-show="matricula.acdMtrResultado != 'A'" style="color:&#10;                                         black;">
+                                        <strong class="ng-binding">10</strong>
+                                        /<small class="ng-binding">17</small>
+                                    </div>
+                                </td>
+                                <td class="ng-binding"></td>
+                                <td class="ng-binding">
+                                    
+                                    <!--
+                                    <div style="font-size: smaller; color:gray;" ng-show="matricula.acdMtrMdPrdLetivo && !matricula.acdMtrResultado && matricula.acdMtrMdPrdLetivo < 70 && matricula.acdMtrMdPrdLetivo >= 40">
+                                        {{'Mín² '+(150 - matricula.acdMtrMdPrdLetivo * 1.5)}}
+                                    </div>
+                                    -->
+                                </td>
+                                <td class="ng-binding"></td>
+                                <td class="ng-binding">-</td>
+
+                                <td>
+                                    <div class="btn-group dropdown" uib-dropdown="" is-open="status.isopen">
+                                        <button id="single-button" type="button" class="btn btn-primary btn-sm dropdown-toggle" uib-dropdown-toggle="" ng-disabled="disabled" aria-haspopup="true" aria-expanded="false">
+                                            Ver <span class="caret"></span></button>
+                                        <ul class="dropdown-menu" uib-dropdown-menu="" role="menu" aria-labelledby="single-button">
+                                            <li role="menuitem"><a ng-click="portal.listNotas(matricula);">Notas</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listFrequencias(matricula);">Frequências</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listConteudos(matricula);">Conteúdos</a></li>
+                                            <li class="divider"></li>
+                                            <li role="menuitem"><a ng-click="portal.listPE(matricula);">Plano de Ensino</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listBibliografias(matricula);">Bibliografias</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listTurmas(matricula);">Informações da Turma</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr><!-- end ngRepeat: matricula in portal.disciplinas --><tr ng-repeat="matricula in portal.disciplinas" class="ng-scope">
+
+                                <td class="ng-binding">2019/1<br /><div style="font-size: smaller; color:gray;" class="ng-binding">
+                                        Semestral</div></td>
+                                <td class="ng-binding">4º ano</td>
+                                <td>
+                                    <strong class="ng-binding">Sistemas de Informação</strong>
+                                    <small class="ng-binding">(foz1011)</small><br />
+                                    <div style="font-size: smaller; color: gray;">
+                                        <span ng-show="" class="ng-binding ng-hide">
+                                            Sistemas de Informação (foz1011)<br />
+                                        </span>
+                                        <!--CH: {{matricula.trmCabecalho.disciplina.dscTtlHrsTotal|| matricula.dscCodigo.dscTtlHrsTotal}}-->
+                                        <span ng-show="matricula.acdDscOrientacao.acdDscOrnCodigo" class="ng-binding ng-hide">
+                                            Orientador:  | 
+                                            Área:  |
+                                            Título: <br />
+                                        </span>
+                                        <span ng-show="false" class="ng-binding ng-hide">
+                                            Ensalamento: Sistemas de Informação
+                                            (foz1011) | 
+                                            <!--{{matricula.trmCabecalho.trmCabecalhoPK.prdLtvPrdLetivo}} |-->
+                                            4ª série |
+                                            Ciência da Computação                                                                                                                                                                                                                           
+                                            (foz0004) |
+                                            Oferta 1<br />
+                                        </span>
+                                        <span style="color:red;" ng-show="matricula.tblGrlItem1.tblGrlItmDscItem1 != 'Ativa'" class="ng-binding ng-hide">
+                                            Ativa<br />
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="ng-binding">
+                                    68
+                                    <div style="font-size: smaller; color:gray;" ng-show="matricula.trmCabecalho.disciplina.dscTtlHrsTotal != matricula.dscCodigo.dscTtlHrsTotal" class="ng-binding ng-hide">
+                                        68
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div ng-show="matricula.acdMtrResultado == 'A'" class="ng-binding ng-hide">
+                                        6    
+                                    </div>
+                                    <div ng-show="matricula.acdMtrResultado != 'A'" style="color:&#10;                                         black;">
+                                        <strong class="ng-binding">6</strong>
+                                        /<small class="ng-binding">17</small>
+                                    </div>
+                                </td>
+                                <td class="ng-binding"></td>
+                                <td class="ng-binding">
+                                    
+                                    <!--
+                                    <div style="font-size: smaller; color:gray;" ng-show="matricula.acdMtrMdPrdLetivo && !matricula.acdMtrResultado && matricula.acdMtrMdPrdLetivo < 70 && matricula.acdMtrMdPrdLetivo >= 40">
+                                        {{'Mín² '+(150 - matricula.acdMtrMdPrdLetivo * 1.5)}}
+                                    </div>
+                                    -->
+                                </td>
+                                <td class="ng-binding"></td>
+                                <td class="ng-binding">-</td>
+
+                                <td>
+                                    <div class="btn-group dropdown" uib-dropdown="" is-open="status.isopen">
+                                        <button id="single-button" type="button" class="btn btn-primary btn-sm dropdown-toggle" uib-dropdown-toggle="" ng-disabled="disabled" aria-haspopup="true" aria-expanded="false">
+                                            Ver <span class="caret"></span></button>
+                                        <ul class="dropdown-menu" uib-dropdown-menu="" role="menu" aria-labelledby="single-button">
+                                            <li role="menuitem"><a ng-click="portal.listNotas(matricula);">Notas</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listFrequencias(matricula);">Frequências</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listConteudos(matricula);">Conteúdos</a></li>
+                                            <li class="divider"></li>
+                                            <li role="menuitem"><a ng-click="portal.listPE(matricula);">Plano de Ensino</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listBibliografias(matricula);">Bibliografias</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listTurmas(matricula);">Informações da Turma</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr><!-- end ngRepeat: matricula in portal.disciplinas --><tr ng-repeat="matricula in portal.disciplinas" class="ng-scope">
+
+                                <td class="ng-binding">2019/2<br /><div style="font-size: smaller; color:gray;" class="ng-binding">
+                                        Semestral</div></td>
+                                <td class="ng-binding">4º ano</td>
+                                <td>
+                                    <strong class="ng-binding">Computação Gráfica</strong>
+                                    <small class="ng-binding">(foz1010)</small><br />
+                                    <div style="font-size: smaller; color: gray;">
+                                        <span ng-show="" class="ng-binding ng-hide">
+                                            Computação Gráfica (foz1010)<br />
+                                        </span>
+                                        <!--CH: {{matricula.trmCabecalho.disciplina.dscTtlHrsTotal|| matricula.dscCodigo.dscTtlHrsTotal}}-->
+                                        <span ng-show="matricula.acdDscOrientacao.acdDscOrnCodigo" class="ng-binding ng-hide">
+                                            Orientador:  | 
+                                            Área:  |
+                                            Título: <br />
+                                        </span>
+                                        <span ng-show="false" class="ng-binding ng-hide">
+                                            Ensalamento: Computação Gráfica
+                                            (foz1010) | 
+                                            <!--{{matricula.trmCabecalho.trmCabecalhoPK.prdLtvPrdLetivo}} |-->
+                                            4ª série |
+                                            Ciência da Computação                                                                                                                                                                                                                           
+                                            (foz0004) |
+                                            Oferta 1<br />
+                                        </span>
+                                        <span style="color:red;" ng-show="matricula.tblGrlItem1.tblGrlItmDscItem1 != 'Ativa'" class="ng-binding ng-hide">
+                                            Ativa<br />
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="ng-binding">
+                                    68
+                                    <div style="font-size: smaller; color:gray;" ng-show="matricula.trmCabecalho.disciplina.dscTtlHrsTotal != matricula.dscCodigo.dscTtlHrsTotal" class="ng-binding ng-hide">
+                                        68
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div ng-show="matricula.acdMtrResultado == 'A'" class="ng-binding ng-hide">
+                                        0    
+                                    </div>
+                                    <div ng-show="matricula.acdMtrResultado != 'A'" style="color:&#10;                                         black;">
+                                        <strong class="ng-binding">0</strong>
+                                        /<small class="ng-binding">17</small>
+                                    </div>
+                                </td>
+                                <td class="ng-binding"></td>
+                                <td class="ng-binding">
+                                    
+                                    <!--
+                                    <div style="font-size: smaller; color:gray;" ng-show="matricula.acdMtrMdPrdLetivo && !matricula.acdMtrResultado && matricula.acdMtrMdPrdLetivo < 70 && matricula.acdMtrMdPrdLetivo >= 40">
+                                        {{'Mín² '+(150 - matricula.acdMtrMdPrdLetivo * 1.5)}}
+                                    </div>
+                                    -->
+                                </td>
+                                <td class="ng-binding"></td>
+                                <td class="ng-binding">-</td>
+
+                                <td>
+                                    <div class="btn-group dropdown" uib-dropdown="" is-open="status.isopen">
+                                        <button id="single-button" type="button" class="btn btn-primary btn-sm dropdown-toggle" uib-dropdown-toggle="" ng-disabled="disabled" aria-haspopup="true" aria-expanded="false">
+                                            Ver <span class="caret"></span></button>
+                                        <ul class="dropdown-menu" uib-dropdown-menu="" role="menu" aria-labelledby="single-button">
+                                            <li role="menuitem"><a ng-click="portal.listNotas(matricula);">Notas</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listFrequencias(matricula);">Frequências</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listConteudos(matricula);">Conteúdos</a></li>
+                                            <li class="divider"></li>
+                                            <li role="menuitem"><a ng-click="portal.listPE(matricula);">Plano de Ensino</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listBibliografias(matricula);">Bibliografias</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listTurmas(matricula);">Informações da Turma</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr><!-- end ngRepeat: matricula in portal.disciplinas -->
+                        </tbody></table>
+
+                    </div>
+                    
+                    
+                    <div style="font-size: smaller; color:gray;">
+                        ¹ total de faltas (negrito) / máximo de faltas previstas, calculado a partir da CH da disciplina;<br />
+                        máximo de faltas real: será calculado no final do período letivo, a partir da CH ministrada na turma.<br />
+                        ² Cálculo da Média Final com Exame = ((Média da Disciplina * 6) + (Exame * 4)) / 10 (regimento geral) <br />
+                        Obs: À medida em que as Matrículas forem finalizadas pelo encerramento da Turma, elas passarão a compor o Histórico.
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>    
+    </div>
+    <div ng-controller="IndexCtrl as ind" class="ng-scope">
+        <a class="btn btn-primary" ng-click="ind.goTop()" id="scrollerUpButton" style="position: fixed; bottom: 20px;right: 20px;z-index: 99; display:none;"><i class="fa fa-arrow-up"></i></a>
+        <a class="btn btn-primary" ng-click="ind.goDown()" id="scrollerDownButton" style="position: fixed; bottom: 20px;right: 60px;z-index: 99; display:none;"><i class="fa fa-arrow-down"></i></a>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.unioeste.br/angularjs/1.5.5/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdn.unioeste.br/angularjs/1.5.5/angular-route.min.js"></script>
+    <script type="text/javascript" src="https://cdn.unioeste.br/angularjs/1.5.5/angular-animate.min.js"></script>
+    <script type="text/javascript" src="https://cdn.unioeste.br/angularjs/1.5.5/angular-touch.min.js"></script>
+    <script type="text/javascript" src="https://cdn.unioeste.br/angularjs/1.5.5/angular-sanitize.min.js"></script>
+    <script type="text/javascript" src="https://cdn.unioeste.br/angularjs/1.5.5/angular-cookies.min.js"></script>
+    <script type="text/javascript" src="https://cdn.unioeste.br/uibootstrap/ui-bootstrap-tpls-1.3.2.min.js"></script>      
+    
+    <script src="https://cdn.unioeste.br/angularjs/1.5.5/angular-messages.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.19.3/sweetalert2.all.min.js"></script>
+
+    <script src="https://cdn.unioeste.br/angular-toastr/1.7.0/angular-toastr.tpls.min.js"></script>
+
+    <script type="text/javascript" src="/academus/academico_mobile/application.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/config/routerConfig.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/services/bootstrapService.js"></script>
+    
+    <script type="text/javascript" src="/academus/academico_mobile/js/services/dscMntAcdMntAtividadeService.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/services/dscMonitoriaService.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/services/dscMntHorarioService.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/services/dscMntAcdMonitorService.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/services/modalService.js"></script>
+
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/IndexCtrl.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/AboutController.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/SobreController.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/HomeController.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/MensagensController.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/ProjetosController.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/AtividadesController.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/ExerciciosDomiciliaresController.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/AcademicoController.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/RelatoriosController.js"></script>
+
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/HistoricoController.js"></script>    
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/NotasHistoricoController.js"></script>
+
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/MatriculasController.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/DisciplinaController.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/FrequenciasController.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/NotasController.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/BibliografiasController.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/ConteudosController.js"></script>
+    
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/DscMntAcdMntAtividadeController.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/DscMonitoriaController.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/DscMntHorarioController.js"></script>
+    <script type="text/javascript" src="/academus/academico_mobile/js/controllers/DscMntAcdMonitorController.js"></script>
+
+
+
+
+<ul class="dropdown-menu dropdown-menu-right" uib-dropdown-menu="" role="menu" aria-labelledby="single-button" style="top: 0px; display: none; left: auto; right: 800px;">
+                                            <li role="menuitem"><a ng-click="portal.listPE(matricula);">Plano de Ensino</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listBibliografias(matricula);">Bibliografias</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listTurmas(matricula);">Informações da Turma</a></li>
+                                        </ul><ul class="dropdown-menu dropdown-menu-right" uib-dropdown-menu="" role="menu" aria-labelledby="single-button" style="top: 0px; display: none; left: auto; right: 800px;">
+                                            <li role="menuitem"><a ng-click="portal.listPE(matricula);">Plano de Ensino</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listBibliografias(matricula);">Bibliografias</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listTurmas(matricula);">Informações da Turma</a></li>
+                                        </ul><ul class="dropdown-menu dropdown-menu-right" uib-dropdown-menu="" role="menu" aria-labelledby="single-button" style="top: 0px; display: none; left: auto; right: 800px;">
+                                            <li role="menuitem"><a ng-click="portal.listPE(matricula);">Plano de Ensino</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listBibliografias(matricula);">Bibliografias</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listTurmas(matricula);">Informações da Turma</a></li>
+                                        </ul><ul class="dropdown-menu dropdown-menu-right" uib-dropdown-menu="" role="menu" aria-labelledby="single-button" style="top: 0px; display: none; left: auto; right: 800px;">
+                                            <li role="menuitem"><a ng-click="portal.listPE(matricula);">Plano de Ensino</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listBibliografias(matricula);">Bibliografias</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listTurmas(matricula);">Informações da Turma</a></li>
+                                        </ul><ul class="dropdown-menu dropdown-menu-right" uib-dropdown-menu="" role="menu" aria-labelledby="single-button" style="top: 0px; display: none; left: auto; right: 800px;">
+                                            <li role="menuitem"><a ng-click="portal.listPE(matricula);">Plano de Ensino</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listBibliografias(matricula);">Bibliografias</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listTurmas(matricula);">Informações da Turma</a></li>
+                                        </ul><ul class="dropdown-menu dropdown-menu-right" uib-dropdown-menu="" role="menu" aria-labelledby="single-button" style="top: 0px; display: none; left: auto; right: 800px;">
+                                            <li role="menuitem"><a ng-click="portal.listPE(matricula);">Plano de Ensino</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listBibliografias(matricula);">Bibliografias</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listTurmas(matricula);">Informações da Turma</a></li>
+                                        </ul><ul class="dropdown-menu dropdown-menu-right" uib-dropdown-menu="" role="menu" aria-labelledby="single-button" style="top: 0px; display: none; left: auto; right: 800px;">
+                                            <li role="menuitem"><a ng-click="portal.listPE(matricula);">Plano de Ensino</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listBibliografias(matricula);">Bibliografias</a></li>
+                                            <li role="menuitem"><a ng-click="portal.listTurmas(matricula);">Informações da Turma</a></li>
+                                        </ul></body></html>
