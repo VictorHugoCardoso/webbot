@@ -1,6 +1,7 @@
 from webbot import Browser 
 import time
 import re
+from bs4 import BeautifulSoup
 
 def init():
 
@@ -10,19 +11,31 @@ def init():
     # data = webot(user,passwd)
     data = open("demofile2.html").read()
 
-    count = data.find("matricula.acdMtrResultado !")
-    matriculadas = int(data.count("matricula.acdMtrResultado !"))//2
-    for x in range(matriculadas):        
-        
-        tupla = data[count+185:count+274]
-        falta = tupla[:2]
-        total = tupla[-3:]
-        if falta != 'DF':
-            falta = int(re.search(r'\d+', falta).group(0))
-            total = int(re.search(r'\d+', total).group(0))
-            print(falta,total)
+    resolveHTML(data)
 
-        count = data.find("matricula.acdMtrResultado !",count+1);
+def resolveHTML(html):
+
+    soup = BeautifulSoup(html, 'html.parser')
+
+    falta = soup.find_all('table')[0].find_all('div')[1].find('strong').contents[0]
+    total = soup.find_all('table')[0].find_all('div')[1].find('small').contents[0]
+    print(falta,total)
+
+    falta = soup.find_all('table')[1].find_all('div')[1].find('strong').contents[0]
+    total = soup.find_all('table')[1].find_all('div')[1].find('small').contents[0]
+    print(falta,total)
+
+    falta = soup.find_all('table')[2].find_all('div')[1].find('strong').contents[0]
+    total = soup.find_all('table')[2].find_all('div')[1].find('small').contents[0]
+    print(falta,total)
+
+    falta = soup.find_all('table')[3].find_all('div')[1].find('strong').contents[0]
+    total = soup.find_all('table')[3].find_all('div')[1].find('small').contents[0]
+    print(falta,total)
+
+    falta = soup.find_all('table')[4].find_all('div')[1].find('strong').contents[0]
+    total = soup.find_all('table')[4].find_all('div')[1].find('small').contents[0]
+    print(falta,total)
 
 def webot(user,passwd):
     web = Browser(False)
